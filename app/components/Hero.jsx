@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="flex flex-col md:py-8 md:flex-row justify-between">
         <div className="flex pb-0 md:pb-24 pl-8 md:pl-48 items-end w-full">
           <div>
-            <h3 className=" text-black text-2xl md:text-5xl">We Are Yuga</h3>
+            <h3 className=" text-black text-2xl md:text-5xl font-argblite">We Are Yuga</h3>
             </div>
           <div className="w-2/4 h-[2px] bg-black mx-4"></div>
         </div>
