@@ -7,6 +7,7 @@ export default function CompLogo({ link, alt, width, height }) {
         alt={alt}
         width={width}
         height={height}
+        className="cursor-pointer"
       />
     </div>
   );
