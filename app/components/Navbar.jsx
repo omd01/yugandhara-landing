@@ -64,17 +64,10 @@ export default function Navbar() {
                 href="#"
                 className="nav-item block py-2 px-3 text-gray-900 rounded md:p-0"
               >
-                About
+                Carrier
               </a>
             </li>
-            <li>
-              <a
-                href="#"
-                className="nav-item block py-2 px-3 text-gray-900 rounded md:p-0"
-              >
-                Services
-              </a>
-            </li>
+            
             <li>
               <a
                 href="#"

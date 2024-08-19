@@ -50,7 +50,7 @@ export default function Hero() {
 
   return (
     <div className="bg-white border-gray-200 w-full h-full flex flex-col justify-between">
-      <div className="flex flex-col md:flex-row justify-center items-center py-8 md:py-16 px-5 md:px-24">
+      <div className="flex flex-col md:flex-row justify-center items-center py-8 md:py-24 px-5 md:px-24">
         <div
           ref={logoRef}
           className="p-0 m-0 flex justify-center w-full md:w-1/5 mx-0 my-10 md:my-0 md:mx-9"
@@ -70,13 +70,13 @@ export default function Hero() {
       </div>
 
       <div className="flex flex-col md:py-8 md:flex-row justify-between">
-        <div className="flex pb-0 md:pb-24 pl-8 md:pl-48 items-end w-full">
+        <div className="flex pb-0 md:pb-14 pl-8 md:pl-36 items-end w-full">
           <div ref={textRef}>
-            <h3 className="text-black text-2xl md:text-5xl font-argblite">
-              We Are Yuga
+            <h3 className="text-black text-lg md:text-4xl font-argblite">
+              WE ARE YUGA
             </h3>
           </div>
-          <div ref={lineRef} className="w-2/4 h-[2px] bg-black mx-4"></div>
+          <div ref={lineRef} className=" w-32 md:w-2/4 h-[2px] bg-black mx-4"></div>
         </div>
         <div
           ref={imageRef}
@@ -87,7 +87,7 @@ export default function Hero() {
             alt="Design Element"
             width={700}
             height={50}
-            className="w-full h-auto"
+            className="w-full h-2/4 md:h-auto"
           />
         </div>
       </div>
